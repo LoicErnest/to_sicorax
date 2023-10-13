@@ -1,0 +1,19 @@
+.table-tree {
+    font-family: 'Roboto', sans-serif;
+}
+  
+.header-table {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    text-align: left;
+}
+  
+
+.body-table{
+    font-size: 18px;
+    padding: 7px;
+    font-weight: normal;
+    text-align: left;
+}
+

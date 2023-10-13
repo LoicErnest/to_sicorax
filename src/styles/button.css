@@ -1,0 +1,38 @@
+.mui-button {
+    --primary: #4281A4;
+    --secondary: #ffffff;
+    width: 100px;
+    height: 30px;
+    margin-left: 25px;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 8px 8px 8px 10px;
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: 0.5s;
+  }
+  
+  
+  .mui-button:hover {
+    box-shadow: inset 6.5em 0 0 0 var(--primary);
+    background-color: var(--primary); 
+    color: var(--secondary);
+  }
+  
+  .mui-button:hover .icon-wrapper {
+    transition: 0.5s;
+    transform: translateX(5px);
+  }
+  
+  .mui-button .icon-wrapper {
+    transition: 0.5s;
+  }
+  
+  .icon-wrapper {
+    display: inline-block;
+    transition: transform 0.2s; 
+  }
